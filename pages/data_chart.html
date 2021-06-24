@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Data</title>
+
+	<!-- bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- CSS stylesheet -->
+	<link rel="stylesheet" href="Stylesheets/styles.css">
+
+</head>
+
+<body>
+	<!-- implementing the navbar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class = "navbar-header">
+        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        		<span class="sr-only">Toggle Navigation</span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+            	</button>
+            	<a class="navbar-default" href="index.html">Latitude</a>
+        	</div>
+
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Census ASC Data Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                         <a href="../pages/data_chart.html">Dataset</a>
+                                     </li>
+                                     <li>
+                                          <a href="../pages/analysis.html">Analysis</a>
+                                      </li>
+                                      <li>
+                                          <a href="../pages/interactive_chart.html">Interactive Chart</a>
+                                      </li>
+                                </ul>
+                            </li>
+                </div>
+          </nav>
+<!-- End of navbar code-->
+
+	<!-- creating a section of the initial article -- kind of the focal point of the first page -->
+	<div class="container">
+        <div class="row row-grid">
+            <div class="col-xs-12">
+                <div class="section-one">
+                    <!-- <section id="intro"> -->
+                    <h1>Data</h1>
+                    <hr/>
+                    <p>The following is the data used in this project.</p>
+	                <div class="table-responsive">
+	                	<table class="table table-bordered table-hover table-condensed">
+	                		<thead><tr><th title="Field #1">City_ID</th>
+							<th title="Field #2">City</th>
+							<th title="Field #3">Cloudiness</th>
+							<th title="Field #4">Country</th>
+							<th title="Field #5">Date</th>
+							<th title="Field #6">Humidity</th>
+							<th title="Field #7">Lat</th>
+							<th title="Field #8">Lng</th>
+							<th title="Field #9">Max Temp</th>
+							<th title="Field #10">Wind Speed</th>
+							</tr></thead>
