@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Health Risks Based on Demographics</title>
+  <title>Census ASC Data Dashboard</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -15,52 +15,52 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Census ASC Data Dashboard</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav navbar-right">
-                      <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore
-                              <span class="caret"></span>
-                          </a>
-                          <ul class="dropdown-menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Census ASC Data Dashboard</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Explore
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                 <a href="https://github.com/iamcmknox/census_visualization/blob/main/data/data.csv">Dataset</a>
+                             </li>
+                             <li>
+                                  <a href="../pages/analysis.html">Analysis</a>
+                              </li>
                               <li>
-                                   <a href="../pages/data_chart.html">Dataset</a>
-                               </li>
-                               <li>
-                                    <a href="../pages/analysis.html">Analysis</a>
-                                </li>
-                                <li>
-                                    <a href="../pages/interactive_chart.html">Interactive Chart</a>
-                                </li>
-                          </ul>
-                      </li>
-          </div>
-    </nav>
-    <div class='container'>
-        <div class="row">
-        <div class="col-xs-12  col-md-12">
-            <div id="scatter">
-            <h2 id='title'>
-                ACS 1-Year Estimates
-                <hr class='my-4'>
-            </h2>
-            </div>
+                                  <a href="../pages/interactive_chart.html">Interactive Chart</a>
+                            </li>
+                        </ul>
+                    </li>
         </div>
+  </nav>
+ 
+  <div class='container'>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div id="scatter">
+          <h2 id='title'>
+            ACS 1-Year Estimates
+            <hr class='my-4'>
+          </h2>
         </div>
+      </div>
     </div>
+ </div>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
-  <script type="text/javascript" src="static/js/app.js"></script>
+  <!-- Footer -->
   
+  
+  <script type="text/javascript" src="static/js/app.js"></script>
+
 </body>
 
 </html>
