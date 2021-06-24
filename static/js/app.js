@@ -147,7 +147,7 @@ function updateToolTip(chosenXAxis, circlesGroup, chosenYAxis) {
 };
 
 // Retrieve data from the CSV file and execute everything below
-d3.csv("data/data.csv").then(function (data) {
+d3.csv("resources/data.csv").then(function (data) {
 
   // Convert numerical data 
   data.forEach(function (d) {
